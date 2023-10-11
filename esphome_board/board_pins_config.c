@@ -1,4 +1,9 @@
+#include <string.h>
+#include "audio_error.h"
+#include "audio_mem.h"
 #include "board.h"
+#include "driver/gpio.h"
+#include "esp_log.h"
 
 static const char *TAG = "ESPHOME_BOARD";
 

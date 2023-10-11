@@ -1,4 +1,6 @@
 #include "board.h"
+#include "audio_mem.h"
+#include "esp_log.h"
 
 static const char *TAG = "AUDIO_BOARD";
 
