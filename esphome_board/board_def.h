@@ -1,1 +1,7 @@
-// Dummy file
+
+#ifndef _AUDIO_BOARD_DEFINITION_H_
+#define _AUDIO_BOARD_DEFINITION_H_
+
+#define BOARD_PA_GAIN (0)
+
+#endif
