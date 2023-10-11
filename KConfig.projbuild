@@ -1,0 +1,14 @@
+menu "ESPHome Audio Board"
+
+  choice CUSTOM_AUDIO_BOARD
+      prompt "ESPHome Board"
+      default ESPHOME_BOARD
+      help
+          Select an audio board to use with the ESP-ADF
+
+  config ESPHOME_BOARD
+      bool "ESPHome Board"
+
+  endchoice
+
+  endmenu
